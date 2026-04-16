@@ -216,4 +216,3 @@ text
 
 ---
 
-This README now accurately reflects your actual pipeline (Kaggle dataset, PNG images, class name `licence`, and the split script modifications). Save it as `README.md` in your project root.
