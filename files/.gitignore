@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Dataset (do not commit raw images — too large)
+raw_dataset/
+dataset/images/
+dataset/labels/
+
+# YOLO training outputs (large model files)
+runs/
+*.pt
+*.onnx
+
+# Results (keep plots, exclude inference dumps)
+results/inference_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+# ALPR System — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Also required (system-level):
+#   Tesseract OCR binary → https://github.com/UB-Mannheim/tesseract/wiki
+#   CUDA toolkit (optional, for GPU training)
+
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+PyYAML>=6.0

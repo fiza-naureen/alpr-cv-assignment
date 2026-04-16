@@ -1,0 +1,16 @@
+# carplate.yaml
+# ──────────────
+# YOLOv8 dataset configuration for the Kaggle Car Plate Detection dataset.
+# Use this file after running split_dataset_kaggle.py.
+
+path:  ./dataset        # root directory (relative to your project root)
+train: images/train     # training images
+val:   images/val       # validation images
+test:  images/test      # test images (optional, used in evaluate.py)
+
+# Number of classes
+nc: 1
+
+# Class names – the Kaggle dataset uses "licence plate" in XML
+names:
+  0: licence
